@@ -5,7 +5,6 @@ import { CssBaseline, ThemeProvider } from "@mui/material";
 import App from "./App.tsx";
 import { AuthProvider } from "./context/AuthContext.tsx";
 import { darkTheme } from "./theme";
-import "./index.css";
 
 const container = document.getElementById("root")!;
 const root = createRoot(container);
