@@ -1,0 +1,75 @@
+# Файлы окружения
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env*.local
+
+# Логи
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Директории зависимостей
+node_modules/
+/.pnp
+.pnp.js
+
+# Сборка
+dist/
+build/
+out/
+.next/
+.nuxt/
+.serverless/
+.temp/
+
+# Кэш
+.cache/
+.turbo/
+
+# Настройки IDE
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Настройки ОС
+.DS_Store
+Thumbs.db
+
+# Тесты
+coverage/
+.nyc_output/
+
+# Дополнительно
+*.log
+*.tmp
+*.bak
+*.pid
+*.seed
+*.pid.lock
+*.tsbuildinfo
+
+# Для Create React App
+/.eslintcache
+
+# Для Vite
+*.local
+
+# Для pnpm
+pnpm-lock.yaml
+
+# Для Storybook
+storybook-static/
+
+# Для Cypress
+cypress/screenshots/
+cypress/videos/
+
+*.local
