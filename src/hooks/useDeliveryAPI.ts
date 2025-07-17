@@ -11,7 +11,7 @@ export const useDeliveryAPI = () => {
 
   async function getDeliveries(query_params: string | null = null) {
     // ЗАПРОС ВСЕХ ДОСТАВОК
-    let url = "http://localhost:8000/api/v1/deliveries";
+    let url = config.api.baseUrl + "deliveries";
     if (query_params) {
       url += `?${query_params}`;
     }

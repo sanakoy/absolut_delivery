@@ -11,6 +11,7 @@ import {
   Alert,
 } from "@mui/material";
 import type { LoginData, AuthResponse, ErrorResponse } from "../types/auth";
+import config from "../config";
 
 const Login = () => {
   // СТРАНИЦА ВХОДА
@@ -43,7 +44,7 @@ const Login = () => {
 
     try {
       const response = await axios.post<AuthResponse>(
-        "http://localhost:8000/api/auth/login/",
+        config.api.baseUrl + "/auth/login/",
         loginData
       );
 
