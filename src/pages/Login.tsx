@@ -44,7 +44,7 @@ const Login = () => {
 
     try {
       const response = await axios.post<AuthResponse>(
-        config.api.baseUrl + "/auth/login/",
+        config.api.baseUrl + "auth/login/",
         loginData
       );
 
