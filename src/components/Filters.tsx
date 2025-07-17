@@ -68,7 +68,7 @@ const Filters: React.FC<{
         label={"Дата и время доставки"}
         setDateDelivery={setDateDelivery}
         isReadOnly={false}
-        defaultValue={null}
+        defaultValue={dateDelivery}
       />
     </Box>
   );
