@@ -53,6 +53,7 @@ export const useDeliveryAPI = () => {
         },
       }
     );
+    console.log(response.data);
     setNewDelivery(null);
     setLoading(false);
   }
@@ -88,6 +89,7 @@ export const useDeliveryAPI = () => {
         },
       }
     );
+    console.log(response.data);
     setDelivery(null);
     setLoading(false);
   }
